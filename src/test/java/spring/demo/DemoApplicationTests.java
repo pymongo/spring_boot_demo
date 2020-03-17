@@ -16,6 +16,7 @@ class DemoApplicationTests {
 
   @Autowired
   private MockMvc mvc;
+  // Alternative: @WebMvcTest
 
   @Test
   public void getIndex() throws Exception {
